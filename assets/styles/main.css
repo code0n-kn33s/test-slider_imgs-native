@@ -132,6 +132,7 @@ img.lazy.loaded {
     opacity: 1;
 }
 
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
     .faq {
