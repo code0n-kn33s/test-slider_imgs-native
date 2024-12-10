@@ -1,0 +1,133 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Header */
+.header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* FAQ Section */
+.faq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.faq-info {
+    flex: 1;
+}
+
+.faq-info-title {
+    font-size: 26px;
+    color: #181819;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.faq-info-desc {
+    font-size: 16px;
+    color: #A9A9A9;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* Common */
+.icon-arrow {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.icon-arrow svg {
+    height: 12px;
+    width: 12px;
+    fill: #181819;
+    transition: transform 0.3s ease;
+}
+
+.icon-arrow:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Lazy Loading */
+img.lazy {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+img.lazy.loaded {
+    opacity: 1;
+}

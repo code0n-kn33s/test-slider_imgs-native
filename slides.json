@@ -1,0 +1,28 @@
+[
+    {
+      "image": "./assets/images/moto_1.png",
+      "content": "Zero 2022 SR",
+      "title": "Найкращий електромотоцикл 2022 року"
+    },
+    {
+      "image": "./assets/images/moto_2.png",
+      "content": "2022 Yamaha VMAX 1200",
+      "title": "Найшвидший крейсер"
+    },
+    {
+      "image": "./assets/images/moto_3.png",
+      "content": "2022 BMW R 1250 GS",
+      "title": "Найкращий мотоцикл для далеких подорожей"
+    },
+    {
+      "image": "./assets/images/moto_4.png",
+      "content": "2023 Ducati Panigale",
+      "title": "Найкращий спортбайк"
+    },
+    {
+      "image": "./assets/images/moto_5.jpeg",
+      "content": "2023 Ducati Panigale",
+      "title": "Найкращий спортбайк"
+    }
+  ]
+  
