@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
           if (index === slides.length - 1) slide.classList.add('prev');
 
           slide.innerHTML = `
-
               <img class="lazy" data-src="${slideData.image}" alt="Slide ${index + 1}">
               <div class="slider-item-footer">
                 <div class="slider-item-text">
@@ -28,9 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <path d="M13.6943 3.33095L1.53124 3.33095L1.53124 0.498047L18.5307 0.498048L18.5307 17.4975L15.6978 17.4975L15.6978 5.33442L2.50292 18.5293L0.499451 16.5258L13.6943 3.33095Z" />
                   </svg>
                 </div>
-              </div>
-
-          `;
+              </div>`;
           sliderList.appendChild(slide);
       });
 
